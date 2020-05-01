@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def reverse_each_word(string = "Hey this is a test")
   puts string
   words = %w[#{string}]
   puts words
@@ -7,4 +7,4 @@ def reverse_each_word(string)
   words
 end
 
-reverse_each_word("Hey this is a test")
+reverse_each_word()
