@@ -4,7 +4,7 @@ def reverse_each_word(string = "Hey this is a test")
   puts words
   reversed_words = words.collect{|item| item.reverse }
   puts reversed_words
-  reversed_string = reversed_words.join("")
+  reversed_string = reversed_words.join(" ")
   puts reversed_string
   reversed_string
 end
